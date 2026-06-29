@@ -1,0 +1,4 @@
+com.upnet.iot.framework.idempotent.config.UpnetIdempotentConfiguration
+com.upnet.iot.framework.lock4j.config.UpnetLock4jConfiguration
+com.upnet.iot.framework.ratelimiter.config.UpnetRateLimiterConfiguration
+com.upnet.iot.framework.signature.config.UpnetApiSignatureAutoConfiguration

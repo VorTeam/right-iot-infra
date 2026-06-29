@@ -1,0 +1,2 @@
+com.upnet.iot.framework.redis.config.UpnetRedisAutoConfiguration
+com.upnet.iot.framework.redis.config.UpnetCacheAutoConfiguration

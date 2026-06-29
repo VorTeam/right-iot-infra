@@ -1,0 +1,3 @@
+com.upnet.iot.framework.security.config.UpnetSecurityAutoConfiguration
+com.upnet.iot.framework.security.config.UpnetWebSecurityConfigurerAdapter
+com.upnet.iot.framework.operatelog.config.UpnetOperateLogConfiguration

@@ -1,0 +1,2 @@
+com.upnet.iot.framework.quartz.config.UpnetQuartzAutoConfiguration
+com.upnet.iot.framework.quartz.config.UpnetAsyncAutoConfiguration

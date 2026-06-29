@@ -1,0 +1,2 @@
+com.upnet.iot.framework.tracer.config.UpnetTracerAutoConfiguration
+com.upnet.iot.framework.tracer.config.UpnetMetricsAutoConfiguration

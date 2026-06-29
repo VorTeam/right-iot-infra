@@ -1,0 +1,3 @@
+com.upnet.iot.framework.datasource.config.UpnetDataSourceAutoConfiguration
+com.upnet.iot.framework.mybatis.config.UpnetMybatisAutoConfiguration
+com.upnet.iot.framework.translate.config.UpnetTranslateAutoConfiguration

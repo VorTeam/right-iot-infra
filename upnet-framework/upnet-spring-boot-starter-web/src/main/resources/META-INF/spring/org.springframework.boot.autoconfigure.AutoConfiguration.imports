@@ -1,0 +1,7 @@
+com.upnet.iot.framework.apilog.config.UpnetApiLogAutoConfiguration
+com.upnet.iot.framework.jackson.config.UpnetJacksonAutoConfiguration
+com.upnet.iot.framework.swagger.config.UpnetSwaggerAutoConfiguration
+com.upnet.iot.framework.web.config.UpnetWebAutoConfiguration
+com.upnet.iot.framework.xss.config.UpnetXssAutoConfiguration
+com.upnet.iot.framework.banner.config.UpnetBannerAutoConfiguration
+com.upnet.iot.framework.encrypt.config.UpnetApiEncryptAutoConfiguration

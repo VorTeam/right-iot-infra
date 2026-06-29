@@ -1,0 +1,3 @@
+com.upnet.iot.framework.mq.redis.config.UpnetRedisMQProducerAutoConfiguration
+com.upnet.iot.framework.mq.redis.config.UpnetRedisMQConsumerAutoConfiguration
+com.upnet.iot.framework.mq.rabbitmq.config.UpnetRabbitMQAutoConfiguration
