@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <groupId>com.upnet.iot</groupId>
+        <artifactId>upnet</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modules>
+        <module>upnet-module-iot-biz</module>
+        <module>upnet-module-iot-core</module>
+        <module>upnet-module-iot-gateway</module>
+    </modules>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>upnet-module-iot</artifactId>
+    <packaging>pom</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>
+        物联网模块
+    </description>
+</project>

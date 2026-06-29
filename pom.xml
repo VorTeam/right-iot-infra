@@ -15,25 +15,12 @@
         <!-- 各种 module 拓展 -->
         <module>upnet-module-system</module>
         <module>upnet-module-infra</module>
-<!--        <module>upnet-module-member</module>-->
-<!--        <module>upnet-module-bpm</module>-->
-<!--        <module>upnet-module-report</module>-->
-<!--        <module>upnet-module-mp</module>-->
-<!--        <module>upnet-module-pay</module>-->
-<!--        <module>upnet-module-mall</module>-->
-<!--        <module>upnet-module-crm</module>-->
-<!--        <module>upnet-module-erp</module>-->
-<!--        <module>upnet-module-iot</module>-->
-<!--        <module>upnet-module-mes</module>-->
-<!--        <module>upnet-module-wms</module>-->
-<!--        <module>upnet-module-im</module>-->
-<!-- 请参考 https://doc.iocoder.cn/ai/build/ 文档，完成 AI 模块的启动！！！ -->
-<!--        <module>upnet-module-ai</module>-->
+        <module>upnet-module-iot</module>
     </modules>
 
     <name>${project.artifactId}</name>
-    <description>芋道项目基础脚手架</description>
-    <url>https://github.com/YunaiV/ruoyi-vue-pro</url>
+    <description>如朋项目基础脚手架</description>
+    <url>https://github.com/VorTeam/right-iot-infra</url>
 
     <properties>
         <revision>2026.05-jdk8-SNAPSHOT</revision>
