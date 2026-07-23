@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: iot-connection-server
+  profiles:
+    active: dev # 默认激活本地开发环境
+
+
+
+# 基础日志配置
+logging:
+  file:
+    name: ${user.home}/logs/${spring.application.name}.log # 日志文件名，全路径
+  level:
+    # 应用基础日志级别
+    com.upnet.module.iot.connection: INFO
+    org.springframework.boot: INFO
+    # RocketMQ 日志
+    org.apache.rocketmq: WARN
+    # MQTT 客户端日志
+    # io.vertx.mqtt: DEBUG
+    # 开发环境详细日志
+    com.upnet.module.iot.connection.protocol.emqx: DEBUG
+    com.upnet.module.iot.connection.protocol.http: DEBUG
+    com.upnet.module.iot.connection.protocol.mqtt: DEBUG
+    com.upnet.module.iot.connection.protocol.coap: DEBUG
+    com.upnet.module.iot.connection.protocol.websocket: DEBUG
+    com.upnet.module.iot.connection.protocol.modbus: DEBUG
+    # 根日志级别
+    root: INFO
+
+debug: false

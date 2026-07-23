@@ -8,6 +8,7 @@
     <modules>
         <module>upnet-module-iot-biz</module>
         <module>upnet-module-iot-core</module>
+        <module>upnet-module-iot-connection</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
 

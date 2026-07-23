@@ -4,9 +4,89 @@
     <parent>
         <groupId>com.upnet.iot</groupId>
         <artifactId>upnet-module-iot</artifactId>
-        <version>2026.05-jdk8-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
+
     <artifactId>upnet-module-iot-biz</artifactId>
-    <name>Archetype - upnet-module-iot-biz</name>
-    <url>http://maven.apache.org</url>
+
+    <name>${project.artifactId}</name>
+    <description>
+        物联网模块业务层, 主要实现, 产品、设备、数据等业务逻辑
+    </description>
+
+    <dependencies>
+        <!-- 业务相关 -->
+        <dependency>
+            <groupId>com.upnet.iot</groupId>
+            <artifactId>upnet-module-system</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.upnet.iot</groupId>
+            <artifactId>upnet-module-iot-core</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.upnet.iot</groupId>
+            <artifactId>upnet-spring-boot-starter-web</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.upnet.iot</groupId>
+            <artifactId>upnet-spring-boot-starter-mybatis</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.upnet.iot</groupId>
+            <artifactId>upnet-spring-boot-starter-redis</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+
+        <!-- DB 相关 -->
+<!--        <dependency>-->
+<!--            <groupId>com.taosdata.jdbc</groupId>-->
+<!--            <artifactId>taos-jdbcdriver</artifactId>-->
+<!--        </dependency>-->
+
+<!--        &lt;!&ndash; OkHttp &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.squareup.okhttp3</groupId>-->
+<!--            <artifactId>okhttp</artifactId>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.squareup.okhttp3</groupId>-->
+<!--            <artifactId>mockwebserver</artifactId>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
+
+<!--        &lt;!&ndash; MQTT &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.eclipse.paho</groupId>-->
+<!--            <artifactId>org.eclipse.paho.client.mqttv3</artifactId>-->
+<!--            <optional>true</optional>-->
+<!--        </dependency>-->
+
+
+<!--        &lt;!&ndash; 消息队列相关 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.rocketmq</groupId>-->
+<!--            <artifactId>rocketmq-spring-boot-starter</artifactId>-->
+<!--            &lt;!&ndash;            <optional>true</optional>&ndash;&gt;-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.kafka</groupId>-->
+<!--            <artifactId>spring-kafka</artifactId>-->
+<!--            <optional>true</optional>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-amqp</artifactId>-->
+<!--            <optional>true</optional>-->
+<!--        </dependency>-->
+    </dependencies>
 </project>
